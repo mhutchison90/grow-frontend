@@ -1,0 +1,37 @@
+@import '../../GlobalCssVariables.css';
+
+.Search-Container{
+    display: flex;
+}
+div > select {
+    border: 0;
+    color: #EEE;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 10px;
+    width: 378px;
+    -webkit-appearance: none;
+    outline: none;
+}
+ #select {
+    overflow:hidden;
+    width:350px;
+    border-radius: 9px 9px 9px 9px;
+    box-shadow: 1px 1px 2px var(--box-shadow-color);
+    background: var(--theme-main-color) url("http://i62.tinypic.com/15xvbd5.png") no-repeat scroll 319px center;
+    margin-right: 25px;
+    margin-bottom: 15px;
+ }
+ #role::before{
+    content:'Role:';
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-light-font-color);
+ }
+ #state::before{
+    content:'State:';
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-light-font-color);
+ }
